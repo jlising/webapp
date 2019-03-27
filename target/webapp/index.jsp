@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Employee Data Management Tool</title>
+    <title>Web Application</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="./assets/css/common.css"/>
     <link rel="stylesheet" href="./assets/css/page.css"/>
@@ -25,7 +25,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#" title="Employee Data Management Tool">
+            <a class="navbar-brand" href="#" title="Web Application">
                 <img alt="IBM" class="logo" src="./assets/images/logo.png">
             </a>
         </div>
@@ -46,7 +46,7 @@
 <div class="container">
     <div class="row">
         <div class="jumbotron text-center">
-            <h3>Employee Data Management Tool</h3>
+            <h3>Web Application</h3>
             <br>
             <!---->
             <!---->
@@ -58,7 +58,7 @@
 </div>
 <footer>
 <div class="container">
-    <span>Employee Data Tool &copy; 2019. All rights reserved.</span>
+    <span>Web Application &copy; 2019. All rights reserved.</span>
 </div>
 </footer>
 </body>
