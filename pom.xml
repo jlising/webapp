@@ -13,6 +13,12 @@
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
+  
   <scm>
     <connection>scm:git:git@github.com:jlising/webapp.git</connection>
     <url>https://github.com/jlising/webapp</url>
@@ -28,17 +34,11 @@
     </repository>
   </repositories>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
-  </properties>
-
   <distributionManagement>
     <repository>
       <id>nexus-release-repository</id>
       <name>release-repository</name>
-      <url>${REPOSITORY_URL}</url>
+      <url>http://nexus:8081/repository/ibm-releases/</url>
     </repository>
   </distributionManagement>
 
