@@ -6,7 +6,7 @@
 
   <groupId>com.ibm.ph</groupId>
   <artifactId>webapp</artifactId>
-  <version>1.0</version>
+  <version>${RELEASE_VERSION}</version>
   <packaging>war</packaging>
 
   <name>Simple web app</name>
